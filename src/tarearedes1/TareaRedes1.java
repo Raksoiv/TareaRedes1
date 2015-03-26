@@ -5,6 +5,8 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 
 import com.sun.net.httpserver.*;
+import java.io.File;
+import java.util.Scanner;
 
 /**
  *
@@ -14,6 +16,7 @@ public class TareaRedes1 {
 
     /**
      * @param args the command line arguments
+     * @throws java.lang.Exception
      */
     public static void main(String[] args) throws Exception {
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
