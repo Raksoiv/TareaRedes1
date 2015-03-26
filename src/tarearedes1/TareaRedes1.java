@@ -1,12 +1,7 @@
 package tarearedes1;
 
-import java.io.IOException;
-import java.io.OutputStream;
 import java.net.InetSocketAddress;
-
 import com.sun.net.httpserver.*;
-import java.io.File;
-import java.util.Scanner;
 
 /**
  *
