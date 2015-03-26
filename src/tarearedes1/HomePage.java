@@ -18,7 +18,6 @@ public class HomePage implements HttpHandler{
     @Override
     public void handle(HttpExchange he) throws IOException {
         String content = new Scanner(new File("HTMLPages/Home.html")).useDelimiter("\\Z").next();
-        System.out.println(content);
         // byte[] encoded = Files.readAllBytes(Paths.get("HTMLpages/Home.html"));
         // String page = new String(encoded, StandardCharsets.UTF_8);
         // System.out.println(page);
